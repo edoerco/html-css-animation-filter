@@ -25,6 +25,16 @@
 /* fine esercizio 2 */
 
 /* esercizio 3 */
+.ex-3-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: border-radius 3s;
+}
+
+.ex-3-square:hover {
+   border-radius: 50%;
+}
 /* fine esercizio 3 */
 
 /* esercizio 4 */
