@@ -105,6 +105,16 @@
 /* fine esercizio 10 */
 
 /* esercizio 11 */
+.ex-11-icon:hover { 
+    animation: spin2 3s linear;
+}
+
+@keyframes spin2 {
+    0% { transform: rotate(0deg);
+    }
+    95% { transform: rotate(270deg);
+    }
+}
 /* fine esercizio 11 */
 
 /* esercizio 12 */
