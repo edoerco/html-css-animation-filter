@@ -12,6 +12,16 @@
 /* fine esercizio 1 */
 
 /* esercizio 2 */
+.ex-2-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 3s;
+}
+
+.ex-2-square:active {   
+    width: 100%;
+}
 /* fine esercizio 2 */
 
 /* esercizio 3 */
