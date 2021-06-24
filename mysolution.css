@@ -38,6 +38,16 @@
 /* fine esercizio 3 */
 
 /* esercizio 4 */
+.ex-4-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: opacity 3s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
 /* fine esercizio 4 */
 
 /* esercizio 5 */
