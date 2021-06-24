@@ -118,6 +118,66 @@
 /* fine esercizio 11 */
 
 /* esercizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+    animation: move 3s linear;
+}
+
+@keyframes move {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+
+    25% {
+        top: -10px;
+        left: 20%;
+    }
+
+    50% {
+        top: -10px;
+        left: 30%;
+    }
+
+    75% {
+        top: -10px;
+        left: 40%;
+    }
+
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: move2 3s linear;
+}
+
+@keyframes move2 {
+    0% {
+        bottom: -10px;
+        right: 10%;
+    }
+
+    25% {
+        bottom: -10px;
+        right: 20%;
+    }
+
+    50% {
+        bottom: -10px;
+        right: 30%;
+    }
+
+    75% {
+        bottom: -10px;
+        right: 40%;
+    }
+
+    100% {
+        bottom: -10px;
+        right: 10%;
+    }
+}
 /* fine esercizio 12 */
 
 /* esercizio 13 */
