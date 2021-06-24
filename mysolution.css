@@ -64,11 +64,19 @@
 }
 
 .ex-7-img:hover {
-    filter: sepia(1);
+    filter: sepia(1) brightness(0.8);
 }
 /* fine esercizio 7 */
 
 /* esercizio 8 */
+.ex-8-img {
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(1) brightness(0.8);
+    border-radius: 10px;
+}
 /* fine esercizio 8 */
 
 /* esercizio 9 */
