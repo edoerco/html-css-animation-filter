@@ -59,6 +59,13 @@
 /* fine esercizio 6 */
 
 /* esercizio 7 */
+.ex-7-img {
+    transition: 3s;
+}
+
+.ex-7-img:hover {
+    filter: sepia(1);
+}
 /* fine esercizio 7 */
 
 /* esercizio 8 */
