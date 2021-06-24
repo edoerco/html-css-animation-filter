@@ -51,6 +51,23 @@
 /* fine esercizio 4 */
 
 /* esercizio 5 */
+.ex-5-square {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    background: red;
+    transition: 3s;
+}
+
+.ex-5-square:hover {
+   height: 200px;
+   width: 200px;
+}
+
+.ex-5-square:active {
+    height: 10px;
+    width: 10px;
+ }
 /* fine esercizio 5 */
 
 /* esercizio 6 */
